@@ -1,4 +1,14 @@
-# 🦜️🔗 LangChain + Next.js Starter Template
+# Personal Knowledge Base Using Langchain, RAG, Supabase, & Next.js
+
+## Objective
+
+To create a personal knowledge base or knowledge store that can be used on a wide variety of topics, everything from coding to health to finance. 
+
+---
+
+## Original Template README
+
+### 🦜️🔗 LangChain + Next.js Starter Template
 
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/langchain-ai/langchain-nextjs-template)
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Flangchain-ai%2Flangchain-nextjs-template)
@@ -20,7 +30,7 @@ It's free-tier friendly too! Check out the [bundle size stats below](#-bundle-si
 
 You can check out a hosted version of this repo here: https://langchain-nextjs-template.vercel.app/
 
-## 🚀 Getting Started
+#### 🚀 Getting Started
 
 First, clone this repo and download it locally.
 
@@ -43,7 +53,7 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 Backend logic lives in `app/api/chat/route.ts`. From here, you can change the prompt and model, or add other modules and logic.
 
-## 🧱 Structured Output
+#### 🧱 Structured Output
 
 The second example shows how to have a model return output according to a specific schema using OpenAI Functions.
 Click the `Structured Output` link in the navbar to try it out:
@@ -55,7 +65,7 @@ It then passes that schema as a function into OpenAI and passes a `function_call
 
 For more details, [check out this documentation page](https://js.langchain.com/docs/modules/chains/popular/structured_output).
 
-## 🦜 Agents
+#### 🦜 Agents
 
 To try out the agent example, you'll need to give the agent access to the internet by populating the `SERPAPI_API_KEY` in `.env.local`.
 Head over to [the SERP API website](https://serpapi.com/) and get an API key if you don't already have one.
@@ -67,7 +77,7 @@ You can then click the `Agent` example and try asking it more complex questions:
 This example uses the OpenAI Functions agent, but there are a few other options you can try as well.
 See [this documentation page for more details](https://js.langchain.com/docs/modules/agents/agent_types/).
 
-## 🐶 Retrieval
+#### 🐶 Retrieval
 
 The retrieval examples both use Supabase as a vector store. However, you can swap in
 [another supported vector store](https://js.langchain.com/docs/modules/data_connection/vectorstores/integrations/) if preferred by changing
@@ -95,7 +105,7 @@ via header in addition to the streaming response.
 
 For more info on retrieval agents, [see this page](https://js.langchain.com/docs/use_cases/question_answering/conversational_retrieval_agents).
 
-## 📦 Bundle size
+#### 📦 Bundle size
 
 The bundle size for LangChain itself is quite small. After compression and chunk splitting, for the RAG use case LangChain uses 37.32 KB of code space (as of [@langchain/core 0.1.15](https://npmjs.com/package/@langchain/core)), which is less than 4% of the total Vercel free tier edge function alottment of 1 MB:
 
@@ -107,7 +117,7 @@ This package has [@next/bundle-analyzer](https://www.npmjs.com/package/@next/bun
 $ ANALYZE=true yarn build
 ```
 
-## 📚 Learn More
+#### 📚 Learn More
 
 The example chains in the `app/api/chat/route.ts` and `app/api/chat/retrieval/route.ts` files use
 [LangChain Expression Language](https://js.langchain.com/docs/guides/expression_language/interface) to
@@ -118,13 +128,13 @@ To learn more about what you can do with LangChain.js, check out the docs here:
 
 - https://js.langchain.com/docs/
 
-## ▲ Deploy on Vercel
+#### ▲ Deploy on Vercel
 
 When ready, you can deploy your app on the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme).
 
 Check out the [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
-## Thank You!
+#### Thank You!
 
 Thanks for reading! If you have any questions or comments, reach out to us on Twitter
 [@LangChainAI](https://twitter.com/langchainai), or [click here to join our Discord server](https://discord.gg/langchain).
