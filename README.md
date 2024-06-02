@@ -1,14 +1,12 @@
 # Personal Knowledge Base Using Langchain, RAG, Supabase, & Next.js
 
-## Objective
+### Objective
 
 To create a personal knowledge base or knowledge store that can be used on a wide variety of topics, everything from coding to health to finance. 
 
 ---
 
-## Original Template README
-
-### 🦜️🔗 LangChain + Next.js Starter Template
+### Original README: 🦜️🔗 LangChain + Next.js Starter Template
 
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/langchain-ai/langchain-nextjs-template)
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Flangchain-ai%2Flangchain-nextjs-template)
